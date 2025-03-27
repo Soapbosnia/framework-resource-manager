@@ -86,6 +86,7 @@ The resource manager ships with a few resources I've cooked up for you guys.
 
 
 **Cache**
+
 Allows you, *the developer*, to cache anything on **anything** you want.
 
 Usage:
@@ -98,6 +99,7 @@ Usage:
 
 
 **Data**
+
 As the name suggests, it's a mini database system used for storing data that's 'there to stay', written to a file, and kept for a unknown period of time, or permanently.
 
 Usage:
@@ -108,6 +110,7 @@ Usage:
 
 
 **Chats**
+
 As the name suggests, it's the default chat, with command handling.
 
 Usage:
@@ -118,6 +121,7 @@ Usage:
 
 
 **Utils**
+
 Contains some useful utilities for developers.
 
 Usage:
