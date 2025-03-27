@@ -88,6 +88,7 @@ The resource manager ships with a few resources I've cooked up for you guys.
 Allows you, *the developer*, to cache anything on **anything** you want.
 
 Usage:
+
 `_G.exports.cache:set(index, key, value)` | Sets the cache on the specified key of the index.
 
 `_G.exports.cache:get(index)` or `_G.exports.cache:get(index, key)` | Returns all data from the index or only a specific key.
@@ -99,6 +100,7 @@ Usage:
 As the name suggests, it's a mini database system used for storing data that's 'there to stay', written to a file, and kept for a unknown period of time, or permanently.
 
 Usage:
+
 `_G.exports.data:set(tableName, key, value)` | Sets the data on the specified table for the key.
 
 `_G.exports.data:get(tableName, key)` | Retrieves the data from the table, on the specified key.
@@ -108,6 +110,7 @@ Usage:
 As the name suggests, it's the default chat, with command handling.
 
 Usage:
+
 `_G.exports.chats:registerCommand(commandName, handlerFunction)` | Binds the specified command to the provided handler function.
 
 `_G.exports.chats:removeCommand(commandName, handlerFunction)` | Removes and unbinds the command from the handler function.
@@ -117,10 +120,13 @@ Usage:
 Contains some useful utilities for developers.
 
 Usage:
+
 `_G.exports.utils.accentColor` | Accent color which you can, but do not need to use server-wide for messages.
 
 `_G.exports.utils:toHex(r, g, b)` | Converts an R, G, B color to hex code. (eg. 255, 255, 255 to "FFFFFF")
+
 `_G.exports.utils:filterHex(string)` | Removes hex codes from the provided string.
+
  `_G.exports.utils:resolveFilePath(filePath, resourceName)` | Gets the absolute path of a file in a resource. For example, accessing files outside the current resource is done by appending the ":" prefix at the start of the path (":hello/test.txt")
 
 **IMPORTANT NOTE: The included resources were NOT written for MafiaMP but for another project that uses the Mafia Framework, I cannot guarantee that they'll all work.**
