@@ -76,7 +76,7 @@ Event.on("onPlayerConnected", function(player)
 	local greetMessage = _G.exports.hello:get() -- Call the 'get' function (method) from the 'hello' resource.
 	local result = _G.exports.hello.ninePlusTen -- Get the value of our exported variable 'ninePlusTen'
 	
-	Chat.sendToAll(player.name.." | "..greetMessage) -- Output the joined player's name and greet message to chat.
+	Chat.sendToAll(player.nickname.." | "..greetMessage) -- Output the joined player's name and greet message to chat.
 	Chat.sendToAll("9 + 10 = "..result) -- Outputs something magnificent to chat.
 end)
 ```
