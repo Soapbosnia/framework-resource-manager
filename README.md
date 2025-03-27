@@ -9,17 +9,27 @@
 ## Resource management
 **A list of functions and variables that the resource manager exports globally by default.**
 `getResources()` | Returns a table containing all resources, indexed by their name, value being the resource's data.
+
 `refreshResources()` | Scans the resource directory, unloads broken resources, loads newly added ones.
+
 `startResource(resourceName)` | Starts the aforementioned resource.
+
 `stopResource(resourceName)` | Stops the aforementioned resource.
+
 `restartResource(resourceName)` | Restarts the aforementioned resource.
+
 `unloadResource(resourceName)` | Stops and unloads the aforementioned resource.
 
+
 `getResourceFromName(resourceName)` | Returns the aforementioned resource's data (.path, .state, .manifest...)
+
 `getResourceState(resourceName)` | Returns the aforementioned resource's state (0 = loaded, 1 = running)
+
 `getResourcePath(resourceName)` | Returns the aforementioned resource's path on the drive.
 
+
 `fileExists(path)` | Checks whether a file exists on the provided path.
+
 `cwd` | Returns the current working directory of the server scripts (/gamemode/server/)
 
 ## Features
