@@ -8,6 +8,7 @@
 
 ## Resource management
 **A list of functions and variables that the resource manager exports globally by default.**
+
 `getResources()` | Returns a table containing all resources, indexed by their name, value being the resource's data.
 
 `refreshResources()` | Scans the resource directory, unloads broken resources, loads newly added ones.
