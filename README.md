@@ -84,6 +84,7 @@ end)
 ### Pre-included resources
 The resource manager ships with a few resources I've cooked up for you guys.
 
+
 **Cache**
 Allows you, *the developer*, to cache anything on **anything** you want.
 
